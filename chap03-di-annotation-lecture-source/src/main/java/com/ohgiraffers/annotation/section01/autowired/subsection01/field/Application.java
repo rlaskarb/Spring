@@ -1,4 +1,4 @@
-package com.ohgiraffers.annotation.section01.autowired.subesction01.field;
+package com.ohgiraffers.annotation.section01.autowired.subsection01.field;
 
 import com.ohgiraffers.annotation.section01.common.BookDTO;
 import org.springframework.context.ApplicationContext;
