@@ -22,6 +22,7 @@ public class ContextConfig {
     * 우리가 작성한 데이터를 읽어드릴 준비가 된 것이다.
     * 값을 읽어드릴 때는 key 로 value 에 접근을 하며
     * @Value 어노테이션을 사용해 간단히 불러올 수 있다.
+    * 그렇다고 한다.
     * */
 
     @Value("${food.kimchi.name}")
