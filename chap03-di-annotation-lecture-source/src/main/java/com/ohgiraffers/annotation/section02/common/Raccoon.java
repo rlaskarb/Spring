@@ -5,8 +5,8 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary // 2개이상 설정하게 되면 에러 발생
-@Order(2)
+//@Primary // 2개이상 설정하게 되면 에러 발생
+@Order(1)
 public class Raccoon implements Animal{
 
 

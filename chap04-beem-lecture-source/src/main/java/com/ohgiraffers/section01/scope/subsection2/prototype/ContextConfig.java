@@ -33,6 +33,7 @@ public class ContextConfig {
     * 하지만 우리가 prototype 이라는 문자열 @Scope 어노테이션에
     * 전달을 하게 된다면, getBean 으로 객체를 꺼낼 때마다
     * 새로운 안스턴스 생성을 해주게 된다.*/
+
     @Scope("prototype")
     public Cart cart(){
         return new Cart();

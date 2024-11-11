@@ -40,8 +40,28 @@ public class Appilcation {
 
         System.out.println("두번째 손님 카트 목록 = " + cart2.showCart());
 
+
+
+
+        Cart cart3 = context.getBean("cart",Cart.class);
+        cart3.addItem(coke);
+
+        System.out.println("3번째 손님 카트 목록 = " + cart2.showCart());
+
+        Cart cart4 = context.getBean("cart",Cart.class);
+        cart4.addItem(coke);
+
+        System.out.println("4번째 손님 카트 목록 = " + cart2.showCart());
+
+        Cart cart5 = context.getBean("cart",Cart.class);
+        cart5.addItem(coke);
+        System.out.println("5번째 손님 카트 목록 = " + cart2.showCart());
+
         System.out.println("cart1 = " + cart1.hashCode());
         System.out.println("cart2 = " + cart2.hashCode());
+        System.out.println("cart3 = " + cart3.hashCode());
+        System.out.println("cart4 = " + cart4.hashCode());
+        System.out.println("cart5 = " + cart5.hashCode());
 
         /*comment
         * Spring 프레임워크에서 Bean(객체) 의 기본 scope 는

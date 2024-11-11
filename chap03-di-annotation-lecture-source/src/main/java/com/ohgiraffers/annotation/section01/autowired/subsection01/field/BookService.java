@@ -1,6 +1,7 @@
 package com.ohgiraffers.annotation.section01.autowired.subsection01.field;
 
 import com.ohgiraffers.annotation.section01.common.BookDAO;
+import com.ohgiraffers.annotation.section01.common.BookDAOImpl;
 import com.ohgiraffers.annotation.section01.common.BookDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

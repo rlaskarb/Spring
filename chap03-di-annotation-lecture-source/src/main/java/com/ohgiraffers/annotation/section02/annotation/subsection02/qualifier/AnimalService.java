@@ -13,7 +13,10 @@ public class AnimalService {
     *  특정 Bean 을 이름으로 지정하는 어노테이션이다.
     *  @Primary 어노테이션이 존재 하더라도 Qualifier 로 이름을 지정해두면 우선순위를 가지게 된다. */
 
-    /*필드 주입 방식*/
+//    /*필드 주입 방식*/
+//    @Autowired
+//    @Qualifier("raccoon")
+//    private  Animal animal;
 
     private final Animal animal;
 
